@@ -146,6 +146,6 @@ dlabel=Label(master, text="3.You Can Send A HTML(Designed) Email By Using Tags G
 #END OF INSTRUCTIONS
 
 #copyright
-Label(master, text="Git - Lazyprogramerrr", font=('Calibri',8)).grid(row=14, sticky=N) #MYGIT
+Label(master, text="Git - Lazyprogrammerrr", font=('Calibri',8)).grid(row=14, sticky=N) #MYGIT
 
 mainloop()
