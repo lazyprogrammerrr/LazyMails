@@ -27,7 +27,8 @@ def browsefunc():
     try:
         data = p.read_excel(filename)
         contacts = p.DataFrame(data)
-    except:
+    except Exception as e:
+        print(e)
         notif.config(text="Error! Please Select A Excel File.", fg="red")
         print("Error")
 
@@ -79,7 +80,8 @@ def send():
                         cur_label.grid(row=1,sticky=W,column=1)
                 print("Sent To",Name)
             print("All Email Sent")
-    except Exception:
+    except Exception as e:
+        print(e)
         notif.config(text="Error Sending Email.",fg="red")
 
 #END OF SENDER FUCNCTION
