@@ -1,6 +1,6 @@
 # LazyMails
 ## A Project Where You Can Send Customized Mass Mails 
-
+NOTE : Install openpyxl using cmd "pip install openpyxl" if you are working with source code
  --- *This Version Is For* **GMAIL For Now** ---
 
                                                                      ---LazyMails---
